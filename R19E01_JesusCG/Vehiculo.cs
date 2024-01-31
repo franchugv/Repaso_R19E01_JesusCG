@@ -35,7 +35,7 @@ namespace R19E01_JesusCG
         // const string COMBUSTIBLES = "Diésel Gasolina Híbrido Eléctrico";
         // const string ESTADOS = "Nuevo Ocasión Segunda Mano";
         const int LONG_MAX_MARCA = 20;
-        const int LONG_MIN_MARCA = 3;
+        const int LONG_MIN_MARCA = 4;
         const int LONG_MAX_MODELO = 25;
         const int LONG_MIN_MODELO = 3;
         const float PRECIO_MIN = 1000.0f;

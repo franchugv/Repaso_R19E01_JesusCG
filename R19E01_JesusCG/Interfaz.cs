@@ -36,7 +36,7 @@ namespace R19E01_JesusCG
 
             foreach (Vehiculo coche in lista)
             {
-                Console.WriteLine($"{coche.Marca}\t{coche.Modelo}\t{coche.TVehiculo.ToString()}\t{coche.Matriculacion}\t{coche.PrecioContado}\t{coche.PrecioFinanciado}\t{coche.Estado.ToString()}\t{coche.Combustible.ToString()}");
+                Console.WriteLine($"{coche.Marca}\t{coche.Modelo}\t{coche.TVehiculo}\t{coche.Matriculacion}\t{coche.PrecioContado}\t{coche.PrecioFinanciado}\t{coche.Estado}\t{coche.Combustible}");
             }
 
             Console.Write("Pulse Enter para Continuar...");

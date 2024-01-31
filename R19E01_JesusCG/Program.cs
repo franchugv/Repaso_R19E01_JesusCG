@@ -31,7 +31,7 @@
             LogicaNegocio.CargarListaVehiculos(ListaVehiculos);
 
 
-            Console.WriteLine("aaaa");
+            Console.Write("Escriba un número: ");
             aux = Console.ReadLine();
 
             opcionMenu = Convert.ToByte(aux);
