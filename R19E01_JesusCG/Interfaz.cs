@@ -41,9 +41,10 @@ namespace R19E01_JesusCG
 
             Console.Write("Pulse Enter para Continuar...");
             Console.ReadLine();
+            Console.Clear();
         }
 
-        internal static void MostrarListadoVehiculo(Vehiculo[] listaVehiculos)
+        internal static void MostrarListadoVehiculo(Vehiculo[] lista)
         {
             throw new NotImplementedException();
         }

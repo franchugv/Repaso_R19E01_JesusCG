@@ -30,10 +30,9 @@ namespace R19E01_JesusCG
 
     public class Vehiculo
     {
+
         // CONSTANTES
-        // const string TIPOS_VEHICULOS = "Turismo Furgoneta Camión";
-        // const string COMBUSTIBLES = "Diésel Gasolina Híbrido Eléctrico";
-        // const string ESTADOS = "Nuevo Ocasión Segunda Mano";
+
         const int LONG_MAX_MARCA = 20;
         const int LONG_MIN_MARCA = 4;
         const int LONG_MAX_MODELO = 25;
@@ -46,12 +45,13 @@ namespace R19E01_JesusCG
         // MIEMBROS
         private string _marca;
         private string _modelo;
-        // private string _tipo;
+
+
         private TipoVehiculo _tipo;
-        // private string _combustible;
         private TipoCombustible _combustible;
-        // private string _estado;
         private TipoEstados _estados;
+
+
         private float _precio;
         private DateTime _matriculacion;
 
@@ -63,11 +63,8 @@ namespace R19E01_JesusCG
         {
             _marca = "Desconocido";
             _modelo = "Desconocido";
-            // _tipo = "Turismo";
             _tipo = TipoVehiculo.Turismo;
-            // _combustible = "Diésel";
             _combustible = TipoCombustible.Diesel;
-            // _estado = "Nuevo";
             _estados = TipoEstados.Nuevo;
             _precio = 0;
         }
@@ -81,11 +78,8 @@ namespace R19E01_JesusCG
         {
             Marca = marca;
             Modelo = modelo;
-            // _tipo = "Turismo";
             _tipo = TipoVehiculo.Turismo;
-            // _combustible = "Diésel";
             _combustible = TipoCombustible.Diesel;
-            // _estado = "Nuevo";
             _estados = TipoEstados.Nuevo;
             _precio = 0;
         }
@@ -168,6 +162,9 @@ namespace R19E01_JesusCG
             }
         }
 
+
+
+
         /// <summary>
         /// Tipo de vehículo
         /// </summary>
@@ -189,7 +186,10 @@ namespace R19E01_JesusCG
         /// </summary>
         public TipoCombustible Combustible
         {
-            get { return _combustible;}
+            get 
+            { 
+                return _combustible;
+            }
             set
             {
                 // Comprobación de dato correcto
@@ -202,7 +202,10 @@ namespace R19E01_JesusCG
         /// </summary>
         public TipoEstados Estado
         {
-            get { return _estados; }
+            get 
+            {
+                return _estados; 
+            }
             set
             {
                 // Comprobación de dato correcto
