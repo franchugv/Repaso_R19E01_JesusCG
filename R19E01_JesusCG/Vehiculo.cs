@@ -37,7 +37,7 @@ namespace R19E01_JesusCG
         const int LONG_MAX_MARCA = 20;
         const int LONG_MIN_MARCA = 3;
         const int LONG_MAX_MODELO = 25;
-        const int LONG_MIN_MODELO = 4;
+        const int LONG_MIN_MODELO = 3;
         const float PRECIO_MIN = 1000.0f;
         const float PRECIO_MAX = 100000.0f;
         const int ANTIGUEDAD_MAX = 10;
