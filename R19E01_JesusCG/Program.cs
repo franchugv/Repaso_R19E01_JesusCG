@@ -24,6 +24,8 @@
 
             LogicaNegocio.CargarListaVehiculos(ListaVehiculos);
 
+            // Console.WriteLine(ListaVehiculos[4].ToString());
+
             Interfaz.MenuPrincipal(ListaVehiculos);
 
             // PROCESO: Carga de los Coches en la lista

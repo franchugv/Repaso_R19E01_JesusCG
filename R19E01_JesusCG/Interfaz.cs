@@ -139,13 +139,13 @@ namespace R19E01_JesusCG
                     case 1:
 
 
-                        Console.WriteLine($"MARCA\tMODELO");
+                        //Console.WriteLine($"MARCA\tMODELO");
 
 
-                        Vehiculo PrimerCoche = Lista[0];
-                                Console.WriteLine($"{PrimerCoche.Marca}\t{PrimerCoche.Modelo}");
-                                  
-                       
+                        //Vehiculo PrimerCoche = Lista[0];
+                        //Console.WriteLine($"{PrimerCoche.Marca}\t{PrimerCoche.Modelo}");
+
+                        Console.WriteLine(Lista[1].ToString());
 
                             Console.Write("Pulse Enter para Continuar...");
                             Console.ReadLine();

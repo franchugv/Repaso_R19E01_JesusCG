@@ -306,7 +306,21 @@ namespace R19E01_JesusCG
             return edad;
         }
 
+
         #endregion
+
+
+        public override string ToString()
+        {
+            string cadena = "";
+
+            cadena = $"Marca: {Marca}\t Modelo: {Modelo}\n";
+            cadena += $"Tipo: {TVehiculo}\t Combustible: {Combustible}\n";
+            cadena += $"Estado {Estado}\n";
+            cadena += $"Precio Contado: {PrecioContado}\t Precio Financiado: {PrecioFinanciado}";
+
+            return cadena;
+        }
 
     }
 }
