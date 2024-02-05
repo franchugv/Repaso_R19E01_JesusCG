@@ -55,7 +55,9 @@ namespace R19E01_JesusCG
                 switch (opcionMenu)
                 {
                     case 0:
-                        // NO HACE NADA
+
+                        opcionMenu = 0;
+
                         break;
                     case 1:
                         MostrarListadoCompleto(Lista);
@@ -132,7 +134,7 @@ namespace R19E01_JesusCG
                 switch (opcionMenu)
                 {
                     case 0:
-                        // NO HACE NADA
+                        opcionMenu = 0;
                         break;
                     case 1:
 
