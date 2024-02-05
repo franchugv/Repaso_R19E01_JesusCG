@@ -35,7 +35,7 @@ namespace R19E01_JesusCG
 
             try
             {
-                opcionMenu = Comprobaciones.ErroresByte(aux);
+                opcionMenu = Comprobaciones.ErroresByteCompleto(aux);
             }
             catch (Exception Error)
             {
@@ -109,7 +109,7 @@ namespace R19E01_JesusCG
 
             try
             {
-                opcionMenu = Comprobaciones.ErroresByte(aux);
+                opcionMenu = Comprobaciones.ErroresByteVehiculo(aux);
             }
             catch (Exception Error)
             {
